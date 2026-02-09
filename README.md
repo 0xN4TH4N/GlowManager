@@ -38,14 +38,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## Plan
 Generator :
     SFW :
-        Image to Image : Fal.ai - Nano Banana
-        Text to Image : Fal.ai - Nano Banana
-        Image to Text : Fal.ai - Nano Banana
+        Image to Image : Fal.ai - Nano Banana Pro Edit
+        Text to Image : Fal.ai - Nano Banana Pro
+        Image to Video : Fal.ai - Wan 2.2
+        Video to Video : Fal.ai - Wan Animate
 
     NSFW :
-        Image to Image : 
-        Text to Image :
-        Image to Text :
+        Image to Image : Wavespeed.ai - Seedream V4.5 Edit
+        Text to Image : Wavespeed.ai - Seedream V4.5
+        Image to Video : Wavespeed.ai - Wan 2.2
+        Video to Video : Wavespeed.ai - Wan Animate
 
 Database :
     SFW and NSFW tabs :

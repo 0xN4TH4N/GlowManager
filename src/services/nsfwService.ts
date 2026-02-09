@@ -14,7 +14,7 @@ if (typeof window === "undefined") {
   });
 }
 
-export class FalService {
+export class NSFWService {
   /**
    * Text-to-Image — Nano Banana
    */
@@ -26,7 +26,7 @@ export class FalService {
       throw new Error("❌ Prompt vide");
     }
 
-    const rawResult: any = await fal.subscribe("fal-ai/nano-banana-pro", {
+    const rawResult: any = await fal.subscribe("fal-ai/nano-banana", {
       input: {
         prompt,
         image_size:
@@ -80,7 +80,7 @@ export class FalService {
         // dans ce schéma spécifique, mais on peut les laisser si besoin.
       };
 
-      const rawResult: any = await fal.subscribe("fal-ai/nano-banana-pro/edit", {
+      const rawResult: any = await fal.subscribe("fal-ai/nano-banana/edit", {
         input,
         logs: true,
       });

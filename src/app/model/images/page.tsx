@@ -54,7 +54,7 @@ export default function Home() {
                 </BreadcrumbItem>
                 <BreadcrumbSeparator className="hidden md:block" />
                 <BreadcrumbItem>
-                  <BreadcrumbPage>Generator</BreadcrumbPage>
+                  <BreadcrumbPage>Images</BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>
             </Breadcrumb>

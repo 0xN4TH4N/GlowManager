@@ -46,11 +46,15 @@ const data = {
       isActive: true,
       items: [
         {
-          title: "Generator",
-          url: "/model/generator",
+          title: "Images",
+          url: "/model/images",
         },
         {
-          title: "Database",
+          title: "Videos",
+          url: "/model/videos",
+        },
+        {
+          title: "Gallery",
           url: "/model/database",
         },
       ],

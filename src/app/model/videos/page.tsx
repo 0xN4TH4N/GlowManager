@@ -1,18 +1,7 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { supabase } from '@/lib/supabase';
-import { useAppStore } from '@/store/useAppStore';
-import { User } from '@/types';
-
-// Composants de l'application
-import AuthForm from '@/components/AuthForm';
-import Profile from "@/components/Profile";
-import Database from '@/components/model/database/Database';
-import Generation from '@/components/model/generation/Generation';
+import Videos from '@/components/model/videos/Videos';
 import { AppSidebar } from "@/components/app-sidebar";
-
-// UI Shadcn
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -27,12 +16,8 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar";
-import { Loader2, Sparkles, LogOut } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState('generation');
-
   return (
     <SidebarProvider>
       <AppSidebar />
@@ -61,7 +46,7 @@ export default function Home() {
           </div>
         </header>
         <main className="flex flex-1 flex-col gap-4 p-6 pt-4 overflow-y-auto">
-           <Generation />
+           <Videos />
         </main>
       </SidebarInset>
     </SidebarProvider>

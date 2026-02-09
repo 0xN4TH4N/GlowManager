@@ -55,7 +55,7 @@ const data = {
         },
         {
           title: "Gallery",
-          url: "/model/database",
+          url: "/model/gallery",
         },
       ],
     },
